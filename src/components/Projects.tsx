@@ -22,7 +22,7 @@ const Projects = () => {
       name: t('projects.p4.name'),
       desc: t('projects.p4.desc'),
       tech: ['Python', 'FastAPI', 'Pydantic', 'SQLAlchemy'],
-      repo: "https://github.com/leoneljfernandes/Curso_FastApi",
+      repo: "https://github.com/leoneljfernandes/FastAPI-Blog",
     },
     {
       name: t('projects.p5.name'),
