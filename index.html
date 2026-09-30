@@ -1,129 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./images/logo_ljf.ico" type="image/x-icon">
-    <title>LJF</title> 
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leonel Fernandes | Full Stack Developer</title>
 </head>
+
 <body>
-  <header>
-    <div class="logo">
-      <img src="./images/logo_ljf.png" alt="Logo">
-    </div>
-    <nav>
-        <ul>
-            <li>
-                <button onclick="location.href='index.html'">Home</button>
-            </li>
-            <li>
-                <button onclick="document.getElementById('footer-contact').scrollIntoView()">Contact</button>
-            </li>
-            <li>
-                <button onclick="document.getElementById('curriculum').scrollIntoView()">Curriculum Vitae</button>
-            </li>
-        </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section id="about_me">
-      <h1>Hello world! I am Leonel Julian Fernandes</h1>
-      <h2>Web & Software Developer</h2>
-      
-      <h2>About me:</h2>
-      
-      <article class="about-container">
-        <img src="./images/foto.png" alt="me" class="img-maximo">
-        <div class="about-text">
-          <p>
-              I am a Computer Engineering student at Universidad Nacional de La Matanza, Buenos Aires, Argentina.
-          </p>
-          <p>
-              I am a web and software developer specialized in backend. I am someone who constantly seeks to learn and take on new challenges, enriching my knowledge to collaborate with any team or organization in achieving their goals.
-          </p>
-          <p>
-              I am currently working as a Functional Analyst at Bantotal in Accion Point - Argentina.
-          </p>
-          <p>
-              <a href="#footer-contact">Let's work together!</a>
-          </p>
-        </div>
-      </article>
-    </section>
-
-    <section id="technologies">
-      <h2>Technologies</h2>
-      <article>
-        <ul>
-          <li><strong>Backend:</strong> C, C++, Python, Java (OOP, Patterns, Collections)</li>
-          <li><strong>Web Development:</strong> HTML, CSS, JavaScript</li>
-          <li><strong>Databases:</strong> SQL (CRUD operations, T-SQL, Security, SQL-Server), NoSQL (MongoDB basics)</li>
-          <li><strong>Version Control:</strong> Git, GitHub</li>
-          <li><strong>Others:</strong> Docker, Linux</li>
-        </ul>
-      </article>
-    </section>
-
-    <section>
-      <h2>Projects</h2>
-      <p>
-        <a href="https://github.com/leoneljfernandes" target="_blank" rel="noopener noreferrer">GitHub</a>
-      </p>
-    </section>
-    
-    <section id="curriculum">
-      <h2>Curriculum Vitae</h2>
-      <h3>Education</h3>
-      <h4>Universidad Nacional de La Matanza</h4>
-      <p>2022 - Present</p>
-      <p>Computer Engineering</p>
-
-      <h4>Universidad Nacional de La Matanza</h4>
-      <p>2018 - 2021</p>
-      <p>Electronics Engineering. Completed up to the 3rd year</p>
-
-      <h4>Instituto San José A-355</h4>
-      <p>2012 - 2017</p>
-      <p>Technician in Electronics</p>
-
-      <h4>Instituto San Francisco</h4>
-      <p>2012 - 2016</p>
-      <p>English</p>
-    </section>
-
-    <section id="footer-contact">
-      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
-        <fieldset>
-          <legend>Contact me!</legend>
-          <p>Phone number: +54 9 11-3357-3444</p>
-          <p>Email: <a href="mailto:leo99.fernandes@gmail.com">leo99.fernandes@gmail.com</a></p>
-          <p><a href="https://www.linkedin.com/in/leonel-julian-fernandes" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
-          
-          <h3>Or send me a message!</h3>
-          
-          <div class="form-group">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-          </div>
-          
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          
-          <div class="form-group">
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-          </div>
-          
-          <div class="form-group">
-            <button type="submit">Send</button>
-          </div>
-        </fieldset>
-      </form>
-    </section>
-  </main>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
 </body>
+
 </html>
