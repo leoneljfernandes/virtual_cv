@@ -31,7 +31,7 @@ const resources = {
       "skills.cyber": "Ciberseguridad",
       "skills.crypto": "Criptografía",
       
-      "skills.cybersecurity.items": "Gestión de riesgos; Amenazas y ataques (malware, phishing, ingeniería social); Gestión de identidad y autenticación; Monitoreo y logs; Red/Blue/Purple Team; Evaluación de vulnerabilidades; Seguridad en el SDLC",
+      "skills.cybersecurity.items": "Gestión de riesgos; Amenazas y ataques; Gestión de identidad y autenticación; Monitoreo y logs; Evaluación de vulnerabilidades; Seguridad en el SDLC",
       "skills.cryptography.items": "Cifrado simétrico y asimétrico; Funciones hash; Firmas digitales",
       "skills.networks.extra": "Subnetting",
       
@@ -102,7 +102,7 @@ const resources = {
       "skills.cyber": "Cybersecurity",
       "skills.crypto": "Cryptography",
       
-      "skills.cybersecurity.items": "Risk management; Threats and attacks (malware, phishing, social engineering); Identity and authentication management; Monitoring and logs; Red/Blue/Purple Team; Vulnerability assessment; Security in the SDLC",
+      "skills.cybersecurity.items": "Risk management; Threats and attacks; Identity and authentication management; Monitoring and logs; Vulnerability assessment; Security in the SDLC",
       "skills.cryptography.items": "Symmetric and asymmetric encryption; Hash functions; Digital signatures",
       "skills.networks.extra": "Subnetting",
       

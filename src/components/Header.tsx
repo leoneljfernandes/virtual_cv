@@ -36,7 +36,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 glass">
+    <header className="sticky top-0 z-50 w-full border-b border-border bg-background">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between max-w-5xl">
         <div className="font-semibold text-sm tracking-tight flex items-center space-x-2">
           <div className="w-6 h-6 rounded-md bg-foreground text-background flex items-center justify-center font-bold text-xs">
