@@ -65,9 +65,11 @@ const Hero = () => {
           className="pt-12 flex justify-center"
         >
           <div className="w-40 h-40 md:w-48 md:h-48 rounded-full border border-border bg-muted/30 overflow-hidden flex items-center justify-center shadow-sm relative">
-            {/* Aquí puedes colocar tu etiqueta <img>. Ejemplo: <img src="/tu-foto.jpg" alt="Leonel" className="w-full h-full object-cover" /> */}
-            <div className="absolute inset-0 bg-gradient-to-tr from-muted/20 to-transparent"></div>
-            <span className="text-xs font-medium text-muted-foreground z-10">Tu Foto Aquí</span>
+            <img
+              src={`${import.meta.env.BASE_URL}photo.webp`}
+              alt="Leonel"
+              className="w-full h-full object-cover"
+            />
           </div>
         </motion.div>
       </motion.div>
