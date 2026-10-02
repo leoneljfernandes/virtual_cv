@@ -45,7 +45,7 @@ const resources = {
       "exp.1.d4": "Lideró la transición digital integrando e-commerce y automatizando procesos.",
       "exp.1.d5": "Soporte técnico Nivel 1 y 2.",
       
-      "exp.2.date": "Abril 2024 – Abril 2025",
+      "exp.2.date": "Abril 2024 – Mayo 2025",
       "exp.2.role": "Analista Funcional & QA",
       "exp.2.company": "Acción Point",
       "exp.2.d1": "Mantenimiento de ambientes de prueba para core bancario Bantotal.",
@@ -116,7 +116,7 @@ const resources = {
       "exp.1.d4": "Led digital transition integrating e-commerce and automating processes.",
       "exp.1.d5": "Level 1 & 2 technical support.",
       
-      "exp.2.date": "April 2024 – April 2025",
+      "exp.2.date": "April 2024 – May 2025",
       "exp.2.role": "Functional Analyst & QA",
       "exp.2.company": "Acción Point",
       "exp.2.d1": "Maintenance of test environments for Bantotal banking core.",
