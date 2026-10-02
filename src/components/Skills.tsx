@@ -1,5 +1,6 @@
 
 import { useTranslation } from 'react-i18next';
+import { getTechIcon } from '../utils/techIcons';
 import { Code2, Database, Server, Cpu, Shield, Key } from 'lucide-react';
 
 const Skills = () => {
@@ -54,14 +55,18 @@ const Skills = () => {
                 <h3 className="font-medium text-sm text-foreground">{cat.title}</h3>
               </div>
               <div className="flex flex-wrap gap-2">
-                {cat.skills.map((skill, sIdx) => (
-                  <span 
-                    key={sIdx} 
-                    className="px-2.5 py-1 text-xs bg-muted text-muted-foreground border border-border rounded-md"
-                  >
-                    {skill}
-                  </span>
-                ))}
+                {cat.skills.map((skill, sIdx) => {
+                  const Icon = getTechIcon(skill);
+                  return (
+                    <span 
+                      key={sIdx} 
+                      className="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs bg-muted text-muted-foreground border border-border rounded-md"
+                    >
+                      {Icon && <Icon className="w-3.5 h-3.5 shrink-0" />}
+                      {skill}
+                    </span>
+                  );
+                })}
               </div>
             </div>
           ))}

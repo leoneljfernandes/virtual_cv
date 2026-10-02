@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { getTechIcon } from '../utils/techIcons';
 import { ExternalLink } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';
 
@@ -54,14 +55,18 @@ const Projects = () => {
                   {proj.desc}
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  {proj.tech.map((tech, tIdx) => (
-                    <span 
-                      key={tIdx} 
-                      className="px-2 py-0.5 text-[11px] font-medium uppercase tracking-wider bg-muted text-muted-foreground border border-border rounded-md"
-                    >
-                      {tech}
-                    </span>
-                  ))}
+                  {proj.tech.map((tech, tIdx) => {
+                    const Icon = getTechIcon(tech);
+                    return (
+                      <span 
+                        key={tIdx} 
+                        className="inline-flex items-center gap-1.5 px-2 py-0.5 text-[11px] font-medium uppercase tracking-wider bg-muted text-muted-foreground border border-border rounded-md"
+                      >
+                        {Icon && <Icon className="w-3 h-3 shrink-0" />}
+                        {tech}
+                      </span>
+                    );
+                  })}
                 </div>
               </div>
               
