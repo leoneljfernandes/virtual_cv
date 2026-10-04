@@ -15,6 +15,7 @@ const techIcons: Record<string, IconType> = {
   'React': SiReact,
   'RESTful APIs': FaPlug,
   'Java': FaJava,
+  'SQL': FaDatabase,
   'SQL Server': FaDatabase,
   'PostgreSQL': SiPostgresql,
   'Linux': SiLinux,

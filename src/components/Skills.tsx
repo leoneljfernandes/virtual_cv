@@ -15,7 +15,7 @@ const Skills = () => {
     {
       title: t('skills.db'),
       icon: <Database className="w-5 h-5 text-foreground" />,
-      skills: ["SQL Server", "PostgreSQL"],
+      skills: ["SQL", "SQL Server", "PostgreSQL"],
     },
     {
       title: t('skills.infra'),
