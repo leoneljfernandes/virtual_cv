@@ -2,7 +2,7 @@ import type { IconType } from 'react-icons';
 import {
   SiPython, SiFastapi, SiTypescript, SiReact, SiPostgresql, SiLinux, SiDocker,
   SiGit, SiGithub, SiGnubash, SiArduino, SiEspressif, SiMqtt, SiNextdotjs,
-  SiTailwindcss, SiPytest, SiPydantic, SiSqlalchemy, SiOpencv,
+  SiTailwindcss, SiPytest, SiPydantic, SiSqlalchemy, SiOpencv, SiGithubactions,
 } from 'react-icons/si';
 import {
   FaJava, FaDatabase, FaAws, FaTerminal, FaNetworkWired, FaWifi, FaPlug, FaImage,
@@ -21,8 +21,10 @@ const techIcons: Record<string, IconType> = {
   'Linux': SiLinux,
   'Docker': SiDocker,
   'AWS': FaAws,
+  'AWS S3': FaAws,
   'Git': SiGit,
   'GitHub': SiGithub,
+  'GitHub Actions': SiGithubactions,
   'TCP/IP, IPv4/IPv6': FaNetworkWired,
   'DHCP': FaNetworkWired,
   'DNS': FaNetworkWired,
