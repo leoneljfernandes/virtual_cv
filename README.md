@@ -24,8 +24,7 @@ Este repositorio contiene el código fuente de mi **Portfolio Personal y Curríc
 ## 📂 Estructura del Proyecto
 
 ```
-myPersonalWeb/
-├── .skills/               # Reglas y especificaciones de diseño utilizadas
+virtual_cv/
 ├── public/                # Archivos estáticos
 ├── src/
 │   ├── components/        # Componentes UI (Hero, Profile, Skills, Experience, Education, Projects)
@@ -39,33 +38,7 @@ myPersonalWeb/
 └── README.md              # Este archivo
 ```
 
-## ⚙️ Cómo ejecutar el proyecto localmente
-
-1. **Clonar el repositorio:**
-   ```bash
-   git clone https://github.com/leoneljfernandes/mi-portfolio.git
-   cd mi-portfolio
-   ```
-
-2. **Instalar dependencias:**
-   ```bash
-   npm install
-   ```
-
-3. **Iniciar el servidor de desarrollo:**
-   ```bash
-   npm run dev
-   ```
-   El servidor se levantará (usualmente en `http://localhost:5173`) y cualquier cambio en el código se reflejará instantáneamente.
-
-4. **Compilar para producción:**
-   ```bash
-   npm run build
-   ```
-   Esto generará una carpeta `dist` lista para ser desplegada en Vercel, Netlify o cualquier servidor estático.
-
 ## 📬 Contacto
 
-Siéntete libre de revisar mi perfil y repositorios:
 - **GitHub:** [leoneljfernandes](https://github.com/leoneljfernandes)
-- **Email:** autosalerno.taller@gmail.com
+- **Email:** leo99.fernandes@gmail.com
